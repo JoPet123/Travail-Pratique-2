@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{e18a90b9-495e-4548-8083-17884da0c6a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -35,5 +38,25 @@
     <ClInclude Include="Orientation.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\attaque.png">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\PersoCourse.png">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\PersoIddle.png">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\tile1.png">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\tile2.png">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\tile3.png">
+      <Filter>Sprites</Filter>
+    </Image>
   </ItemGroup>
 </Project>

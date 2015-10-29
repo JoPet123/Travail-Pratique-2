@@ -1,12 +1,16 @@
 #include <vld.h>
 #include <iostream>
 #include <SFML/Graphics.hpp>
-#define LARGEUR 800
-#define HAUTEUR 600
+#include "Personnage.h"
+#include "Mur.h"
+
 
 using namespace sf;
 
-RenderWindow mainWin(VideoMode(LARGEUR, HAUTEUR, 32), "Projet");
+const int WIDHT = 1280;
+const int HEIGHT = 720;
+
+RenderWindow mainWin(VideoMode(WIDHT, HEIGHT, 32), "Fury");
 View view(mainWin.getDefaultView());
 Event event;
 

@@ -13,7 +13,7 @@ private:
 	float largeur;
 	float posX;
 	float posY;
-	orientation ori;
+	Orientation ori;
 public:
 	Mur(float posX, float posY, float largeur, float longueure);
 	~Mur();

@@ -1,7 +1,2 @@
 ﻿  Source.cpp
-  Personnage.cpp
-c:\users\jonathan\documents\github\travail-pratique-2\travail-pratique-2\travail-pratique-2\tp2\personnage.cpp(96): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
-  Mur.cpp
-  Génération de code en cours...
-  LINK : C:\Users\Jonathan\Documents\GitHub\Travail-Pratique-2\Travail-Pratique-2\Travail-Pratique-2\Debug\TP2.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
   TP2.vcxproj -> C:\Users\Jonathan\Documents\GitHub\Travail-Pratique-2\Travail-Pratique-2\Travail-Pratique-2\Debug\TP2.exe

@@ -77,6 +77,14 @@
     <ClInclude Include="Orientation.h" />
     <ClInclude Include="Personnage.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\attaque.png" />
+    <Image Include="Sprites\PersoCourse.png" />
+    <Image Include="Sprites\PersoIddle.png" />
+    <Image Include="Sprites\tile1.png" />
+    <Image Include="Sprites\tile2.png" />
+    <Image Include="Sprites\tile3.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

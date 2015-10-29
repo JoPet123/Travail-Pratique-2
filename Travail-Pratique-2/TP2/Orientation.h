@@ -1,5 +1,6 @@
-static enum orientation
+static enum Orientation
 {
+	IMMOBILE,
 	N,
 	NE,
 	E,
