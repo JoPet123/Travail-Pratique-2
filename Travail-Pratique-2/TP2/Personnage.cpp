@@ -12,7 +12,16 @@ Personnage::Personnage(const float posX, const float posY, const float speed, co
 
 Personnage::~Personnage()
 {
-
+	for (int i = 0; i < NBR_NIVEAUX; i++)
+	{
+		delete[] intRectsImmobile[i];
+		delete[] intRectsMouvement[i];
+		delete[] intRectsAttaque[i];
+	}
+	delete[] intRectsImmobile;
+	delete[] intRectsMouvement;
+	delete[] intRectsAttaque;
+	
 }
 
 bool Personnage::ChargerTextures(const char texturePathIddle[], const char texturePathMouv[], const char texturePathAttaque[])
