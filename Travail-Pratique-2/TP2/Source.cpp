@@ -73,7 +73,22 @@ bool Init()
 
 	interfaceDeplacement.x = 0;
 	interfaceDeplacement.y = 0;
+
+	//TUILES DE FOND
+
+	for (int i = 0; i < 6; i++)
+	{
+		backgroundPos[i].x = (i % 2) * 512;
+		backgroundPos[i].y = (i / 2) * 256;
+	}
+
+	for (int i = 0; i < 12; i++)
+	{
+		backgroundPos[i + 6].x = ((i % 3) * 512) - 256;
+		backgroundPos[i + 6].y = ((i / 3) * 256) - 128;
+	}
 	
+	return true;
 }
 
 void GetInputs()
@@ -96,7 +111,11 @@ void Draw()
 {
 	mainWin.clear();
 
-	//mainWin.draw()
+	for (int i = 0; i < 18; i++)
+	{
+		background.setPosition(backgroundPos[i]);
+		mainWin.draw(background);
+	}
 
 	mainWin.display();
 }
